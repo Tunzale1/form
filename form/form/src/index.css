@@ -1,0 +1,36 @@
+body{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.simptom{
+  display: block;
+  width: 210px;
+  height: 100px;
+  background-color: antiquewhite;
+  font-size: 17px;
+}
+.gender{
+  width: 220px;
+  background-color: antiquewhite;
+  font-size: 17px;
+
+}
+input{
+  background-color: antiquewhite;
+  font-size: 17px;
+}
+.but{
+  background-color: burlywood;
+  border: 1px solid burlywood;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+ position: absolute;
+ top:625px
+}
+.ha{
+  display: flex;
+  flex-direction: row;
+  
+}
