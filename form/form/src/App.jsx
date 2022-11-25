@@ -4,6 +4,7 @@ state={
   name:"",
   seriya:"",
   age:"",
+ gender:"",
   email:"",
   number:"",
   simptom:"",
@@ -16,7 +17,7 @@ input=(e)=>{
 
 event(){
  alert("kart qeydiyyatdan kecdi, konsolu yoxlayin")
-
+console.log(this.state)
 }
   render() {
     console.log(this.state)
@@ -45,10 +46,11 @@ event(){
 <div>
 <label>
   Gender <br></br>
-  <select className='gender'>
-    <option value={this.state.gender} type="option" id="gender" name="gender">Man</option>
-    <option value={this.state.gender} type="option" id="gender" name="gender">Woman</option>
+  <select className='gender' name="gender" onClick={this.input}>
+    <option value="man">Man</option>
+    <option value="woman">Woman</option>
   </select>
+
 </label>  
 </div>
 <br></br>
